@@ -1,9 +1,6 @@
-function test(arr) {
-  if (arr == null) {
+let arg = process.argv[2] 
+  if (arg == null) {
     console.log("No argument");
   } else {
-    console.log(arr[0]);
-    
+    console.log(arg);
   }
-}
-test()
