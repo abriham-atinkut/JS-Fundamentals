@@ -1,5 +1,5 @@
 function checkout(argu) {
-    if(argu === null) {
+    if(argu.length == 0) {
         console.log("No argument");
     } else if (argu.length === 1) {
         console.log("Argument found");
@@ -8,3 +8,4 @@ function checkout(argu) {
         
     }
 }
+checkout(0);
