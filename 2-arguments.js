@@ -1,11 +1,11 @@
-function checkout(argu) {
-    if(argu.length == 0) {
-        console.log("No argument");
-    } else if (argu.length === 1) {
-        console.log("Argument found");
+let arg = process.argv[2]
+
+    if (arg == null) {
+      console.log("No argument");
+    } else if (arg != null) {
+      console.log("Argument found");
     } else {
-        console.log("Arguments found");
-        
+      console.log("Arguments found");
     }
-}
-checkout(0);
+
+
